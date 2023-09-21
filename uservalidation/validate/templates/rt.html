@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>user details</title>
+    </head>
+    <body>
+        {% for i in k %}
+        <table border="2">
+            <tr><th>Name</th><td>{{i.name}}</td></tr>
+            <tr><th>Age</th><td>{{i.age}}</td></tr>
+            <tr><th>Gender</th><td>{{i.gender}}</td></tr>
+            <tr><th>Mail</th><td>{{i.mail}}</td></tr>
+            <tr><th>Qualification</th><td>{{i.qualification}}</td></tr>
+            <tr><th>Percentage</th><td>{{i.percentage}}</td></tr>
+            <tr><th>Place</th><td>{{i.place}}</td></tr>
+            <tr><th>PhoneNo</th><td>{{i.phone}}</td></tr>
+        </table>
+        {% endfor %}
+    </body>
+</html>
